@@ -1,0 +1,12 @@
+body {
+	background: #f8f8f8;
+}
+#header {
+	background: #fff url("../images/bg_top.png") repeat-x scroll top center;
+}
+#social_icons, #phone_city, #order_btn {
+	background: url("../images/bd_1px.png") repeat-y scroll top right;
+}
+#breadcrumbs {
+	background: #ededed;
+}

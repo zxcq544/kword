@@ -1,0 +1,224 @@
+.lightGrey {
+    color: #9F9F9F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.medium {
+    font-size: 16px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/**********  MAIN PAGE  *************/
+
+/********** BEGIN PORTFOLIO  *************/
+.mainPagePortfolio {
+
+}
+
+.mainPagePortfolio ul {
+    vertical-align: top;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.mainPagePortfolio li {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.mainPagePortfolio img {
+    width: 200px;
+
+}
+
+.mainPagePortfolio h4 {
+    margin: 10px 0;
+}
+
+.mainPagePortfolio li > a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.portfolioTag img {
+    height: 16px;
+    width: inherit;
+    position: relative;
+    top: 2px;
+}
+
+.portfolioTag > span {
+    margin-right: 10px;
+}
+
+.orangeButton {
+    background: #fa730e;
+    padding: 15px 10px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    border-radius: 5px;
+    /*box-shadow: 2px 2px 2px grey;*/
+    display: inline-block;
+}
+
+.orangeButton:hover {
+    background: #2763ac;
+    /*box-shadow: 2px 2px 2px grey;*/
+    cursor: pointer;
+
+}
+
+.orangeButton:active {
+    position: relative;
+    /*box-shadow: 2px 2px 2px grey;*/
+    top: 2px;
+}
+
+.mainPagePortfolio a {
+    display: inline-block;
+}
+
+.goToPortfolio {
+    margin: 0 0 20px 42px;
+
+}
+
+/***** END PORTFOLIO ********/
+
+/******** BEGIN  SERVICES ****/
+
+.services ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+.services li {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin: 0 6px 15px 6px;
+}
+
+.services span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.whiteDiv {
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 10px 5px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.iconLink {
+    height: 40px;
+}
+
+.iconLink2 {
+    position: relative;
+    top: 4px;
+}
+
+.iconServiceLink1 {
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.iconServiceLink2 {
+    position: relative;
+    left: 10px;
+}
+
+.iconServiceLink3 {
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+
+/********* END SERVICES ***********/
+
+/********* BEGIN NAM DOVERAUT *********/
+
+.home_folio_list {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.home_folio_list td {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.home_folio_box .human_id td span {
+
+    width: 150px !important;
+    padding: 0 0 !important;
+}
+
+.preview_picture {
+    width: 150px;
+    height: 150px;
+}
+
+/********* END NAM DOVERAUT *********/
+
+/********* BEGIN OUR BLOG *********/
+
+.blog ul {
+    padding: 0;
+}
+
+.blog li {
+    vertical-align: top;
+    display: inline-block;
+    width: 610px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.quote {
+    vertical-align: top;
+}
+
+.blogHeader {
+    font: bold 16px "PT Sans Caption", "PT Sans", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.newsImage {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.blogWhite {
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}

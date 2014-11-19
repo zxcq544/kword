@@ -1,0 +1,11 @@
+@media screen and (min-width: 1300px) {
+	.g9_13 {
+		width: 700px !important;
+	}
+}
+
+@media screen and (min-width: 960px) and (max-width: 1299) {
+	.g5_9 {
+		width: 380px !important;
+	}	
+}
