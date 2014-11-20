@@ -33,7 +33,6 @@
 
 /********** BEGIN PORTFOLIO  *************/
 .mainPagePortfolio {
-
 }
 
 .mainPagePortfolio ul {
@@ -53,7 +52,7 @@
 }
 
 .mainPagePortfolio img {
-    width: 200px;
+    width: 100%;
 
 }
 
@@ -201,7 +200,7 @@
 .blog li {
     vertical-align: top;
     display: inline-block;
-    width: 48.5%;
+    width: 45%;
     margin-right: 15px;
     margin-bottom: 30px;
 }
