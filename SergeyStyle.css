@@ -49,7 +49,7 @@
     text-align: left;
     vertical-align: top;
     list-style: none;
-    margin: 0 5% 20px 0px;
+    margin: 0 5% 20px 0;
 }
 
 .mainPagePortfolio img {
@@ -64,6 +64,7 @@
 .mainPagePortfolio li > a {
     display: block;
     margin-bottom: 5px;
+    font-size: 84%;
 }
 
 .portfolioTag img {
@@ -75,6 +76,7 @@
 
 .portfolioTag > span {
     margin-right: 10px;
+    font-size: 87%;
 }
 
 .orangeButton {
