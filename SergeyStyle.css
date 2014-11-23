@@ -57,10 +57,6 @@
 
 }
 
-.mainPagePortfolio h1 {
-    margin-left: 1.5%;
-}
-
 .mainPagePortfolio h4 {
     margin: 10px 0;
 }
@@ -111,7 +107,7 @@
 }
 
 .goToPortfolio {
-    margin: 0 0 20px 10px;
+    margin: 0 0 20px 0;
 }
 
 /***** END PORTFOLIO ********/
@@ -128,13 +124,9 @@
     display: inline-block;
     vertical-align: top;
     width: 31.8%;
-    margin: 0 0 15px 12px;
+    margin: 0 1% 15px 0;
 }
 
-
-.services h2{
-    margin-left: 1.4%;
-}
 .services span {
     display: inline-block;
     margin-top: 10px;
@@ -177,9 +169,16 @@
 
 /********* BEGIN NAM DOVERAUT *********/
 
+.home_folio_box {
+    text-align: center;
+    height: 10%;
+}
+
 .home_folio_list {
     width: 150px !important;
     height: 150px !important;
+    display: inline-block;
+    margin-right: 9.2%;
 }
 
 .home_folio_list td {
@@ -209,7 +208,7 @@
 .blog li {
     vertical-align: top;
     display: inline-block;
-    width: 48%;
+    width: 47%;
     margin-right: 15px;
     margin-bottom: 30px;
 }
@@ -293,7 +292,11 @@ footer {
     width: 43px;
 }
 
+/****** MOBILE 768 *******/
+
 @media (max-width: 768px) {
+
+    /**** BEGIN MOBILE PORTFOLIO  *****/
     .mainPagePortfolio ul {
         vertical-align: top;
         list-style: none;
@@ -309,5 +312,62 @@ footer {
         list-style: none;
         margin: 0 20px 20px 20px;
     }
+
+    /* END MOBILE PORTFOLIO */
+
+    /* BEGIN MOBILE SERVICES */
+
+    .services li {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        margin: 0 0 10% 0;
+    }
+
+    .services span {
+        margin-top: 1%;
+        font-size: 119%;
+        line-height: 180%;
+        text-align: justify;
+    }
+
+    /* END MOBILE SERVICES */
+
+    /*BEGIN MOBILE NAM DOVERAYUT*/
+    .hideOnMobile{
+        display: none;
+    }
+
+    /*BEGIN MOBILE BLOG*/
+    .blog li {
+        vertical-align: top;
+        display: inline-block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    /*END MOBILE BLOG*/
+
 }
 
+@media (max-width: 930px) {
+    .iconServiceLink1 {
+        font-size: 90%;
+    }
+
+    .iconServiceLink2 {
+        font-size: 90%;
+    }
+
+    .iconServiceLink3 {
+        font-size: 90%;
+    }
+
+}
+
+/*HIDE LAST ELEMENT FROM NAM DOVERAYUT*/
+@media (max-width: 1023px){
+    .hideOnMobile:last-child{
+        display: none;
+    }
+}
