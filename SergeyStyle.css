@@ -83,12 +83,13 @@
 
 .orangeButton {
     background: #fa730e;
-    padding: 15px 10px;
+    padding: 14px 14px;
     color: white !important;
     font-weight: bold;
     text-decoration: none !important;
     border-radius: 5px;
-    /*box-shadow: 2px 2px 2px grey;*/
+    font-size: 15px;
+    /* box-shadow: 2px 2px 2px grey; */
     display: inline-block;
 }
 
@@ -111,7 +112,6 @@
 
 .goToPortfolio {
     margin: 0 0 20px 10px;
-
 }
 
 /***** END PORTFOLIO ********/
@@ -127,10 +127,14 @@
 .services li {
     display: inline-block;
     vertical-align: top;
-    width: 30%;
+    width: 31.8%;
     margin: 0 0 15px 12px;
 }
 
+
+.services h2{
+    margin-left: 1.4%;
+}
 .services span {
     display: inline-block;
     margin-top: 10px;
@@ -205,7 +209,7 @@
 .blog li {
     vertical-align: top;
     display: inline-block;
-    width: 48.5%;
+    width: 48%;
     margin-right: 15px;
     margin-bottom: 30px;
 }
@@ -244,6 +248,7 @@ footer ul {
 footer li {
     vertical-align: top;
     width: 32%;
+    font-size: 96%;
 }
 
 footer span {
