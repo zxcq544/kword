@@ -183,6 +183,7 @@
     list-style: none;
     width: 12%;
     overflow: hidden;
+    margin-right: 12%;
 }
 
 .namDoverayutImageMain {
@@ -208,7 +209,7 @@
     width: 100%;
     vertical-align: middle;
     text-align: center;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .4);
     color: #ffffff !important;
     text-decoration: none !important;
     font-size: 75%;
